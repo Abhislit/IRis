@@ -1,10 +1,10 @@
-# 🚀 HackMan - ML-Guided RISC-V Compiler Optimization
+# HackMan - ML-Guided RISC-V Compiler Optimization
 
 An ML-powered compiler optimization system that uses XGBoost to predict optimal LLVM pass sequences for C programs, specifically targeting **RISC-V hardware**. Beat standard optimization levels (-O0/-O1/-O2/-O3) with intelligent, program-specific optimizations!
 
 ---
 
-## 📋 Quick Start
+## Quick Start
 
 ### Linux Setup
 
@@ -111,7 +111,7 @@ python generate_training_data.py --programs-dir ..\training_programs --output-di
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 ### What Does This Do?
 
@@ -137,7 +137,7 @@ This project uses **Machine Learning (XGBoost)** to learn which LLVM compiler op
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 hackman/
@@ -242,7 +242,7 @@ python3 generate_training_data.py \
 
 ---
 
-## 📊 Output Data Format
+## Output Data Format
 
 ### Training Data (`training_data_hybrid.json`)
 ```json
@@ -290,7 +290,7 @@ python3 generate_training_data.py \
 
 ---
 
-## 🎓 Training the Model
+## Training the Model
 
 ### Using Combined Model (Recommended)
 ```bash
@@ -319,7 +319,7 @@ python3 train_passformer.py \
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Linux
 
@@ -383,7 +383,7 @@ pip install xgboost scikit-learn pandas numpy tqdm
 
 ---
 
-## 🏆 Success Metrics
+## Success Metrics
 
 | Metric | Target |
 |--------|--------|
@@ -393,7 +393,7 @@ pip install xgboost scikit-learn pandas numpy tqdm
 
 ---
 
-## 🆘 Getting Help
+## Getting Help
 
 1. **Check tools work:** `./test_tools.sh` (Linux) or `python test_tools.py` (Windows)
 2. **Verify RISC-V support:** `llc --version | grep riscv`
@@ -407,7 +407,7 @@ pip install xgboost scikit-learn pandas numpy tqdm
 
 ---
 
-## 📚 Key Files
+## Key Files
 
 - **training_programs/**: Programs used to train the ML model
 - **test_programs/**: Programs used to evaluate the model (unseen during training)
@@ -417,7 +417,7 @@ pip install xgboost scikit-learn pandas numpy tqdm
 
 ---
 
-## 🔗 Resources
+## Resources
 
 - LLVM Pass Documentation: https://llvm.org/docs/Passes.html
 - RISC-V ISA: https://riscv.org/technical/specifications/
@@ -426,7 +426,7 @@ pip install xgboost scikit-learn pandas numpy tqdm
 
 ---
 
-## 🎉 Ready to Run!
+## Ready to Run!
 
 **Linux:**
 ```bash
