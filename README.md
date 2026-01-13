@@ -61,7 +61,7 @@ graph LR
 
 ### Pipeline Overview
 
-```
+
 <img width="633" height="249" alt="image" src="https://github.com/user-attachments/assets/19b58faf-ffac-4d4d-8332-a79e48e2b8fa" />
 
 
@@ -70,7 +70,7 @@ graph LR
 
 <img width="633" height="257" alt="image" src="https://github.com/user-attachments/assets/c20adba3-04bc-4b5c-a3ac-c6184d7610c6" />
 
-```
+
 
 ---
 
